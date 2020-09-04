@@ -5,7 +5,7 @@
 
 
 temp = float(input("Enter temperature: "))
-units = input("Enter units in F° or C°: ")
+units = input("Enter units in F/f or C/c: ")
 
 CelsiusConversion = (1.8 * temp) + 32
 FahrenheitConversion = (temp - 32) / 1.8
