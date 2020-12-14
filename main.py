@@ -12,7 +12,7 @@ FahrenheitConversion = (temp - 32) / 1.8
 if units == "F" or units == "f" :
   print (f"{temp}° in Fahrenheit is equivalent to {FahrenheitConversion}° Celsius.")
 elif units == "C" or units == "c" :
-  print (f"{temp}° in Celsius is equivalent to {CelsiusConversion}° Fahreheit.")
+  print (f"{temp}° in Celsius is equivalent to {CelsiusConversion}° Fahrenheit.")
 else:
   print (f"Invalid unit({units}).")
 
