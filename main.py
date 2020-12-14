@@ -15,5 +15,5 @@ if units == "F" or units == "f" :
 elif units == "C" or units == "c" :
   print (f"{temp}° in Celsius is equivalent to {CelsiusConversion}° Fahreheit.")
 else:
-  print (f"That is an invalid unit ( {units} ).")
+  print (f"Invalid ({units}).")
 
